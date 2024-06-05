@@ -16,6 +16,7 @@ string compresstring(string s){
         output += s[i];
         output += to_string(count);
     }
+    if(output.length() > s.length()) return s;
     return output;
 
 }
