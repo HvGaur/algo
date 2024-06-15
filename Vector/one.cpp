@@ -14,5 +14,10 @@ int main(){
     cout << arr.size() << endl;
     cout << arr.capacity() << endl;
 
+    arr.pop_back(); // removes the last element
+
+    cout << arr.size() << endl;
+    cout << arr.capacity() << endl;
+
     return 0;
 }
