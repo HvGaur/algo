@@ -1,0 +1,1 @@
+// given a vector, find all the occurences of an integer k
